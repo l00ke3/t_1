@@ -33,7 +33,7 @@ ENV HOME=/headless \
     VNC_VIEW_ONLY=false
 WORKDIR $HOME
 
-### Add all install scripts for further steps
+### Add all install scripts for further steps444
 ADD ./src/common/install/ $INST_SCRIPTS/
 ADD ./src/ubuntu/install/ $INST_SCRIPTS/
 ## Add gecjego
